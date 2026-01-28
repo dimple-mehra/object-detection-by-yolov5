@@ -23,7 +23,6 @@ Object-Tracking-and-Anomaly-Detection
 ├── Week4
 │   └── Week4.md
 └── Final-Assignment
-    ├── object_detection.ipynb
     ├── object_tracking.ipynb
     └── README.md
 ```
