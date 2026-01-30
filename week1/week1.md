@@ -9,7 +9,7 @@ Week 1 focused on developing a clear conceptual understanding of object detectio
 - Object detection is the task of identifying objects present in an image and localizing them using bounding boxes.
 - Each detected object is associated with a class label and a confidence score.
 - The difference between image classification, object detection, and object tracking was studied.
-- Object detection acts as a bridge between simple image understanding and advanced video-based tasks such as tracking and anomaly detection.
+- Object detection acts as a bridge between simple image understanding and advanced video-based tasks such as tracking and object detection.
 
 ### YOLO Algorithm Overview
 - YOLO (You Only Look Once) is a single-stage object detection algorithm.
