@@ -42,4 +42,4 @@ Week 3 focused on the practical implementation of training YOLOv5 models on a re
 ## Conclusion & Next Steps
 Week 3 successfully demonstrated the complete workflow of training YOLOv5 models on a real-world dataset. The trained pedestrian detector serves as the foundation for object tracking and behavior analysis.
 
-In the next week, the focus will shift to object tracking and anomaly detection using the trained YOLOv5 models.
+In the next week, the focus will shift to object tracking and object detection using the trained YOLOv5 models.
