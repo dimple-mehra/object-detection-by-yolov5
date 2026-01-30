@@ -1,7 +1,7 @@
 # Week 4 — Object Tracking and Anomaly Detection
 
 ## Overview
-Week 4 focused on extending object detection to video-based analysis through object tracking and anomaly detection. Using the trained YOLOv5 pedestrian detector from the previous week, a tracking-by-detection pipeline was implemented to follow individuals across video frames. This week emphasized understanding motion patterns and detecting abnormal behavior using rule-based logic.
+Week 4 focused on extending object detection to video-based analysis through object tracking and anomaly detection. Using the trained YOLOv5 pedestrian detector from the previous week, a tracking-by-detection pipeline was implemented to follow individuals across video frames. This week emphasized understanding motion patterns.
 
 ## Topics Covered
 
@@ -22,11 +22,6 @@ Week 4 focused on extending object detection to video-based analysis through obj
 - Motion trajectories provided information about speed, direction, and movement patterns.
 - These trajectories formed the basis for behavior analysis and anomaly detection.
 
-### Rule-Based Anomaly Detection
-- Anomalies were detected by defining simple, interpretable rules rather than using labeled anomaly data.
-- Speed-based anomalies were identified when movement between frames exceeded a defined threshold.
-- Direction-change anomalies were detected using sudden changes in movement direction.
-- Region-based anomalies were identified when tracked objects entered predefined forbidden zones.
 
 ## Assignments / Work Done
 - Implemented object tracking using YOLOv5 and DeepSORT.
@@ -38,7 +33,7 @@ Week 4 focused on extending object detection to video-based analysis through obj
 - Object tracking enables temporal understanding beyond frame-wise detection.
 - Tracking-by-detection is an effective approach for multi-object tracking tasks.
 - Motion trajectories provide valuable information for behavior analysis.
-- Rule-based anomaly detection allows identification of unusual behavior without requiring anomaly-labeled data.
+
 
 ## Conclusion & Final Outcome
-Week 4 completed the transition from object detection to full video-based analysis. The final system integrates detection, tracking, and anomaly detection into a unified pipeline capable of identifying unusual pedestrian behavior in real-world scenarios.
+Week 4 completed the transition from object detection to full video-based analysis. The final system integrates detection, tracking.

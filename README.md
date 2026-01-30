@@ -1,18 +1,18 @@
 # object-detection-by-yolov5
 
 
-This repository documents my week-by-week progress on a computer vision project focused on **pedestrian detection, object tracking, and rule-based anomaly detection**. It contains concise weekly reports for Weeks 1–4, followed by a **final applied assignment** that integrates detection, tracking, and anomaly logic into one end-to-end pipeline.
+This repository documents my week-by-week progress on a computer vision project focused on **pedestrian detection, object tracking**. It contains concise weekly reports for Weeks 1–4, followed by a **final applied assignment** that integrates detection, tracking, and anomaly logic into one end-to-end pipeline.
 
 
 ## Project goal
 
-Build a strong practical understanding of **computer vision for detection and tracking**, then apply these techniques to model **normal pedestrian motion** and detect **anomalous behavior** using rule-based logic, simulating real-world surveillance deployments.
+Build a strong practical understanding of **computer vision for detection and tracking**, then apply these techniques to model **normal pedestrian motion** simulating real-world surveillance deployments.
 
 
 ## Repo layout
 
 ```
-Object-Tracking-and-Anomaly-Detection
+Object-Tracking
 ├── README.md
 ├── Week1
 │   └── Week1.md
@@ -68,7 +68,6 @@ The `Final-Assignment/` folder contains the **complete integrated implementation
 * Tracking-by-detection pipeline
 * DeepSORT-based tracking
 * Motion trajectory extraction
-* Rule-based anomaly detection logic
 
 
 ## Final Assignment 
@@ -76,12 +75,7 @@ The `Final-Assignment/` folder contains the **complete integrated implementation
 * Pedestrian detection using trained YOLOv5 models
 * Multi-object tracking across video frames
 * Learning normal pedestrian motion patterns
-* Detecting anomalies using:
 
-  * speed thresholds
-  * direction changes
-  * forbidden region entry
-* Application to real-world surveillance datasets
 
 
 ## Dependencies (summary)
@@ -99,7 +93,7 @@ The `Final-Assignment/` folder contains the **complete integrated implementation
 
 * Read `WeekX/WeekX.md` for conceptual understanding.
 * Explore `Final-Assignment/` for the complete runnable pipeline.
-* Follow the progression from **foundations → detection → tracking → anomaly detection**.
+* Follow the progression from **foundations → detection → tracking**.
 
 
 ## Status
