@@ -25,7 +25,6 @@ Object-Tracking
 └── Final-Results
     ├── results_12
     ├── videos_processed
-    ├── object_tracking.ipynb
     ├── yolov5final.ipynb
     └── object_tracking.ipynb
 
@@ -76,11 +75,10 @@ The `Final-Assignment/` folder contains the **complete integrated implementation
 
 ## Final Assignment 
 
-* Pedestrian detection using trained YOLOv5 models
-* Multi-object tracking across video frames
-* Learning normal pedestrian motion patterns
-
-
+* Successfully trained YOLOv5 models for pedestrian detection on MOT17
+* Integrated YOLOv5 with DeepSORT for multi-object tracking in videos
+* Generated and visualized pedestrian trajectories across frames
+* Processed video outputs demonstrating consistent ID assignment and motion continuity
 
 ## Dependencies (summary)
 
@@ -96,7 +94,7 @@ The `Final-Assignment/` folder contains the **complete integrated implementation
 ## How to review the work
 
 * Read `WeekX/WeekX.md` for conceptual understanding.
-* Explore `Final-Assignment/` for the complete runnable pipeline.
+* Explore week4/ for the complete detection and tracking pipeline.
 * Follow the progression from **foundations → detection → tracking**.
 
 
