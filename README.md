@@ -1,7 +1,7 @@
 # object-detection-by-yolov5
 
 
-This repository documents my week-by-week progress on a computer vision project focused on **pedestrian detection, object tracking**. It contains concise weekly reports for Weeks 1–4, followed by a **final applied assignment** that integrates detection, tracking, and anomaly logic into one end-to-end pipeline.
+This repository documents my week-by-week progress on a computer vision project focused on **pedestrian detection, object tracking**. It contains concise weekly reports for Weeks 1–4, followed by a **final applied assignment** that integrates detection and tracking into one end-to-end pipeline.
 
 
 ## Project goal
@@ -62,7 +62,7 @@ The `Final-Assignment/` folder contains the **complete integrated implementation
 * Freezing layers and comparing performance
 
 
-### Week 4 — Object Tracking & Anomaly Detection
+### Week 4 — Object Tracking 
 
 * Object tracking concepts and evaluation
 * Tracking-by-detection pipeline
