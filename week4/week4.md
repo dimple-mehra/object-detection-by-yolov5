@@ -1,7 +1,7 @@
-# Week 4 — Object Tracking and Anomaly Detection
+# Week 4 — Object Tracking 
 
 ## Overview
-Week 4 focused on extending object detection to video-based analysis through object tracking and anomaly detection. Using the trained YOLOv5 pedestrian detector from the previous week, a tracking-by-detection pipeline was implemented to follow individuals across video frames. This week emphasized understanding motion patterns.
+Week 4 focused on extending object detection to video-based analysis through object tracking and object detection. Using the trained YOLOv5 pedestrian detector from the previous week, a tracking-by-detection pipeline was implemented to follow individuals across video frames. This week emphasized understanding motion patterns.
 
 ## Topics Covered
 
@@ -26,8 +26,6 @@ Week 4 focused on extending object detection to video-based analysis through obj
 ## Assignments / Work Done
 - Implemented object tracking using YOLOv5 and DeepSORT.
 - Stored and visualized object trajectories across video frames.
-- Designed and applied rule-based anomaly detection logic.
-- Tested the tracking and anomaly detection pipeline on video datasets.
 
 ## Key Learnings
 - Object tracking enables temporal understanding beyond frame-wise detection.
